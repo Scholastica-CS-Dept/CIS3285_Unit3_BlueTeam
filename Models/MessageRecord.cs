@@ -10,6 +10,7 @@
             AuthorName = authorName;
         }
 
+        // Changes for Sprint 2 -- User Story 2c -- Sophie E
         public int RoomID
         {
             get;
