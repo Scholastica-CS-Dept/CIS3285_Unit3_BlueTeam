@@ -3,6 +3,7 @@
     public class RoomRecord
     {
         public RoomRecord(string name, int roomId)
+        // Changes for Sprint 1 -- User Story -- Sophie E
         {
             Name = name;
             RoomId1 = roomId;
