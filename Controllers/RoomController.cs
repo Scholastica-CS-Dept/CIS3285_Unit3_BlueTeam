@@ -12,7 +12,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: RoomController/Details/5
-        // Changes for Sprint 1 -- User Story -- Sophie E
+        // Changes for Sprint 1 -- User Story -- Sophie E 
 
         public ActionResult Details(int id)
         {
