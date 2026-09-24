@@ -12,12 +12,14 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: MessageController/Details/5
+        // Changes for Sprint 2 -- User Story 2b -- Sophie E
         public ActionResult Details(int id)
         {
             return View();
         }
 
         // GET: MessageController/Create
+        // Changes for Sprint 2 -- User Story 2b -- Sophie E
         public ActionResult Create()
         {
             return View();
@@ -26,6 +28,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // POST: MessageController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        // Changes for Sprint 2 -- User Story 2c -- Sophie E
         public ActionResult Create(IFormCollection collection)
         {
             try
@@ -39,6 +42,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: MessageController/Edit/5
+        // Changes for Sprint 2 -- User Story 2c -- Sophie E
         public ActionResult Edit(int id)
         {
             return View();
@@ -47,6 +51,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // POST: MessageController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        // Changes for Sprint 2 -- User Story 2c -- Sophie E
         public ActionResult Edit(int id, IFormCollection collection)
         {
             try

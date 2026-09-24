@@ -6,6 +6,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
     public class RoomController : Controller
     {
         // GET: RoomController
+        // Changes for Sprint 2 -- User Story 2b -- Sophie E
         public ActionResult Index()
         {
             return View();
@@ -21,6 +22,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
 
         // GET: RoomController/Create
         // Changes for Sprint 1 -- User Story -- Sophie E
+        // Changes for Sprint 2 -- User Story 2b -- Sophie E
         public ActionResult Create()
         {
             return View();
@@ -30,6 +32,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
+        // Changes for Sprint 2 -- User Story 2d -- Sophie E
+
         {
             try
             {
@@ -43,6 +47,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
 
         // GET: RoomController/Edit/5
         // Changes for Sprint 1 -- User Story -- Sophie E
+        // Changes for Sprint 2 -- User Story 2d -- Sophie E
         public ActionResult Edit(int id)
         {
             return View();
