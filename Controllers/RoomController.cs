@@ -12,12 +12,15 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: RoomController/Details/5
+        // Changes for Sprint 1 -- User Story -- Sophie E
+
         public ActionResult Details(int id)
         {
             return View();
         }
 
         // GET: RoomController/Create
+        // Changes for Sprint 1 -- User Story -- Sophie E
         public ActionResult Create()
         {
             return View();
@@ -39,6 +42,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: RoomController/Edit/5
+        // Changes for Sprint 1 -- User Story -- Sophie E
         public ActionResult Edit(int id)
         {
             return View();
@@ -48,6 +52,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
+        // Changes for Sprint 1 -- User Story -- Sophie E
         {
             try
             {
@@ -61,6 +66,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
 
         // GET: RoomController/Delete/5
         public ActionResult Delete(int id)
+        // Changes for Sprint 1 -- User Story -- Sophie E
         {
             return View();
         }
