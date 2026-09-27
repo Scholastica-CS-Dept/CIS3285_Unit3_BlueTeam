@@ -12,6 +12,7 @@
         int RoomId;
         public int RoomId1 { get => RoomId; set => RoomId = value; }
 
+        // Changes for Sprint #3 -- User Story 2C -- Abdullatif Nurie
         public string Name
         // Changes for Sprint 2b -- User Story 2c -- Sophie E
         {
