@@ -11,6 +11,7 @@
         }
 
         // Changes for Sprint 2 -- User Story 2c -- Sophie E
+        // Changes for Sprint #2 -- User Story 2C -- Abdullatif Nurie
         public int RoomID
         {
             get;
